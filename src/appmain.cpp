@@ -73,7 +73,7 @@ int main(int argc, char *argv[])
 
     KAboutData aboutData("ghostwriter",
                     QCoreApplication::translate("main", "ghostwriter"),
-                    APPVERSION);
+                    "2.1.999");
 
     aboutData.setOrganizationDomain("kde.org");
     aboutData.setShortDescription(QCoreApplication::translate("main",
