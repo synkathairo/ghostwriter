@@ -598,5 +598,5 @@ TRANSLATIONS += 3rdparty/MathJax/src/ts/mathjax.ts \
                 3rdparty/MathJax/src/ts/output/svg/fonts/tex/tex-size3.ts \
                 3rdparty/MathJax/src/ts/output/svg/fonts/tex/tex-size4.ts \
                 3rdparty/MathJax/src/ts/output/svg/fonts/tex/tex-variant.ts
-INCLUDEPATH += . /opt/homebrew/include/KF5
-QT += widgets core5compat webenginewidgets concurrent
+INCLUDEPATH += . /opt/homebrew/include/KF5 /opt/homebrew/include/KF5/SonnetCore /opt/homebrew/include/KF5/SonnetUi
+QT += widgets core5compat webenginewidgets concurrent testlib
